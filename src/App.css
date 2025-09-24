@@ -1,12 +1,13 @@
 /* === LAYOUT === */
 .container {
     display: flex;
-    width: 50vw;
+    width: 850px; /* Adjusted from 50vw to a fixed size for better control */
     background-color: #bdbdbd;
 }
 
 .side-content {
     background-color: #094D73;
+    width: 35%; /* Set a percentage width for the sidebar */
 }
 
 .main-content {
@@ -15,6 +16,7 @@
     padding: 20px;
     margin: 0;
     background-color: #fff;
+    width: 65%; /* Set a percentage width for the main content */
 }
 
 /* === PROFILE SECTION === */
@@ -24,8 +26,8 @@
 }
 
 .Profile img {
-    width: 250px;
-    height: 250px;
+    width: 250px; /* Reduced image size */
+    height: 250px; /* Reduced image size */
 }
 
 .name {
@@ -39,14 +41,14 @@
 .SideSkills {
     background-color: #073E5C;
     color: #fff;
+    padding: 2px;
 }
 
 .SideContact h1,
 .SideSkills h1 {
-    padding-left: 20px;
-    font-size: 30px;
+     padding-left: 20px;
+    font-size: 25px;
     font-weight: bold;
-
 }
 
 .SideSkills h1 {
@@ -55,7 +57,7 @@
 
 .Infocontacts,
 .Infoskills {
-    font-size: 15px;
+    font-size: 14px; /* Reduced font size */
     color: #fff;
     margin-left: 2px;
 }
@@ -79,7 +81,7 @@
 }
 
 .Infoskills li {
-    padding: 5px 0 20px;
+    padding: 5px 0 10px; /* Adjusted padding */
 }
 
 /* === HEADING / SECTIONS === */
@@ -113,7 +115,8 @@ hr {
 }
 
 .leftside {
-    padding: 85px;
+    padding: 0; /* Removed padding */
+    width: 100px; /* Set a fixed width for the date column */
 }
 
 .EducationContent {
@@ -122,11 +125,13 @@ hr {
 
 .EducationContent h1 {
     color: #2F2F2F;
+    font-size: 16px; /* Adjusted font size */
 }
 
 .EducationContent p {
     font-style: italic;
     color: #4A4A4A;
+    font-size: 14px; /* Adjusted font size */
 }
 
 /* === EXPERIENCE SECTION === */
@@ -145,12 +150,13 @@ hr {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-right: 120px;
+    margin-right: 20px; /* Adjusted margin */
     padding-top: 10px;
+    width: 150px; /* Set a fixed width for the date column */
 }
 
 .leftDate p {
-    font-size: 15px;
+    font-size: 14px; /* Adjusted font size */
     color: #4A4A4A;
 }
 
@@ -176,4 +182,5 @@ hr {
 .ExpContent li {
     margin-bottom: 10px;
     color: #4A4A4A;
+    font-size: 14px; /* Adjusted font size */
 }
