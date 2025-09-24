@@ -1,0 +1,179 @@
+/* === LAYOUT === */
+.container {
+    display: flex;
+    width: 50vw;
+    background-color: #bdbdbd;
+}
+
+.side-content {
+    background-color: #094D73;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+    background-color: #fff;
+}
+
+/* === PROFILE SECTION === */
+.Profile {
+    margin: 20px;
+    padding-bottom: 1px;
+}
+
+.Profile img {
+    width: 250px;
+    height: 250px;
+}
+
+.name {
+    margin: 2px;
+    font-size: 45px;
+    color: #fff;
+}
+
+/* === CONTACT SECTION === */
+.SideContact,
+.SideSkills {
+    background-color: #073E5C;
+    color: #fff;
+}
+
+.SideContact h1,
+.SideSkills h1 {
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.SideSkills h1 {
+    padding-left: 25px;
+}
+
+.Infocontacts,
+.Infoskills {
+    font-size: 15px;
+    color: #fff;
+    margin-left: 2px;
+}
+
+.Infocontacts h3,
+.Infocontacts p,
+.Infoskills h3,
+.Infoskills p,
+.Infoskills li {
+    padding-left: 20px;
+    font-weight: lighter;
+}
+
+.Infocontacts h3 {
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.Infoskills {
+    margin-right: 15px;
+}
+
+.Infoskills li {
+    padding: 5px 0 20px;
+}
+
+/* === HEADING / SECTIONS === */
+.Heading h1 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #4A4A4A;
+}
+
+.MainEducation h1,
+.MainExperience h1 {
+    margin: 2px;
+    color: rgb(25, 93, 133);
+}
+
+hr {
+    color: #02020228;
+}
+
+/* === EDUCATION SECTION === */
+.EducationInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.Education {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftside {
+    padding: 85px;
+}
+
+.EducationContent {
+    padding-left: 20px;
+}
+
+.EducationContent h1 {
+    color: #2F2F2F;
+}
+
+.EducationContent p {
+    font-style: italic;
+    color: #4A4A4A;
+}
+
+/* === EXPERIENCE SECTION === */
+.ExperienceInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.Exp {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftDate {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 120px;
+    padding-top: 10px;
+}
+
+.leftDate p {
+    font-size: 15px;
+    color: #4A4A4A;
+}
+
+.ExpContent {
+    padding-left: 15px;
+}
+
+.ExpContent h1 {
+    color: #2F2F2F;
+}
+
+.ExpContent p {
+    font-style: italic;
+    font-size: 15px;
+    color: #4A4A4A;
+}
+
+.ExpContent ul {
+    padding-left: 10px;
+    list-style-position: outside;
+}
+
+.ExpContent li {
+    margin-bottom: 10px;
+    color: #4A4A4A;
+}
